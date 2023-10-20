@@ -113,7 +113,7 @@ body {
     height: 100%;
     position: absolute;
     z-index: -1;
-    filter: brightness(70%); /*explicar o filtro   */
+    filter: brightness(70%);
     opacity: 0;
     transition: 0.5s ease-out;
     font-size: 20px;
@@ -147,8 +147,8 @@ body {
     width: 50px;
     height: 50px;
     position: absolute; 
-    text-indent: 100%; /* serve pra desaparecer o texto */
-    overflow: hidden; /* serve pra desaparecer o texto */
+    text-indent: 100%;
+    overflow: hidden;
 }
 
 .conteudo-principal .paineis .seta.desabilitar{
@@ -158,7 +158,7 @@ body {
 
 .conteudo-principal .paineis .btn-voltar{
     left: 20px;
-    transform: rotateY(180deg); /* vira a imagem da seta */
+    transform: rotateY(180deg);
 }
 
 .conteudo-principal .paineis .btn-avancar{
